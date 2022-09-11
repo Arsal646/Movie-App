@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.center{
+  text-align: center;
+}
+.card{
+  border: 1px solid ;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.img{
+  margin: 10px;
+  width: 100%;
+}
+.movieCard{
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.searchFeild{
+  margin: 50px 0;
+}
+.searchFeild input{
+  padding:5px 20px;
+  box-shadow: 0 0 0 1px gray;
+}
+.searchFeild button{
+  padding:5px 20px;
+  box-shadow: 0 0 0 1px gray;
+  background: black;
+  color: white;
+}
