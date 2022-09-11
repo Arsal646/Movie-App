@@ -13,7 +13,7 @@ Year: "2005",
 
 
 const App = () => {
-  let API_url='http://www.omdbapi.com/?i=tt3896198&apikey=4c1ee5e1'
+  let API_url='https://www.omdbapi.com/?i=tt3896198&apikey=4c1ee5e1'
   const [movies,setMovies]=useState([])
   const [searchterm,setSearchTerm]=useState([])
   let search=async (title)=>{
